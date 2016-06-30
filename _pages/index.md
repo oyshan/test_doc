@@ -8,4 +8,4 @@ layout: page
 permalink: http://wpdev.genus.net/index/
 published: true
 ---
-http://wpdev.genus.net/2016/06/28/hello-world/  
+http://wpdev.genus.net/2016/06/28/hello-world/ http://wpdev.genus.net/2016/06/29/forste-commitpush/
