@@ -18,6 +18,10 @@
 #
 # import os
 # import sys
+
+# import CommonMarkParser
+from recommonmark.parser import CommonMarkParser
+
 # sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
@@ -41,13 +45,10 @@ templates_path = ['_templates']
 #source_suffix = '.rst'
 
 #Support markdown
-from recommonmark.parser import CommonMarkParser
-
+source_suffix = ['.rst', '.md']
 source_parsers = {
     '.md': CommonMarkParser,
 }
-
-source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
 #
