@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    about-us
+   markdown
 
 
 Indices and tables
