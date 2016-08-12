@@ -13,6 +13,7 @@ Contents:
 
    about-us
    markdown
+   subdir/sub-article
 
 
 Indices and tables
