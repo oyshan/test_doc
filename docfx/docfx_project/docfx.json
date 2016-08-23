@@ -5,8 +5,9 @@
         "files": [
           "articles/**.md",
           "articles/**/toc.yml",
+		  "articles/**/*.{md,yml}",
           "toc.yml",
-          "*.md"
+          "*.{md,yml}"
         ],
         "exclude": [
           "obj/**",
@@ -17,7 +18,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+		  "**/Media/**"
         ],
         "exclude": [
           "obj/**",
@@ -31,7 +33,7 @@
     "template": [
       "default"
     ],
-    "postProcessors": [],
+	"postProcessors": ["ExtractSearchIndex"],
     "noLangKeyword": false
   }
 }

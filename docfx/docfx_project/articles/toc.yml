@@ -1,3 +1,11 @@
-
 - name: Introduction
   href: intro.md
+- name: Other
+  items:
+  - name: Article one
+    href: article1.md
+  - name: Article two
+    href: article2.md
+  - name: Subarticles
+    href: Subcategory1/toc.yml
+    topicHref: Subcategory1/subarticle1.md
